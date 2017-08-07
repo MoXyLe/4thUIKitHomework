@@ -23,6 +23,8 @@ class IPViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    // Не смотри код, ничего не понятно
+    
     override func viewWillLayoutSubviews() {
         let xSwitchPosition = Int(self.view.center.x + 30 + (self.view.center.x - 81) / 2)
         image.frame = self.view.frame
